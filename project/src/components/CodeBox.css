@@ -1,0 +1,9 @@
+.code-box{
+    background-color:#1e2225 ;
+    max-width: 900px; 
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
