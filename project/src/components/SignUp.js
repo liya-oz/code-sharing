@@ -57,9 +57,7 @@ const SignUp = ({ onSignup }) => {
             required
           />
         </div>
-        <div>
-          <button type="submit">Sign Up</button>
-        </div>
+          <button type="submit" className="submit-btn">Sign Up</button>
       </form>
     </div>
   );

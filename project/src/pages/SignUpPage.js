@@ -15,7 +15,7 @@ return (
       Create free account now.
     </p>
     <SignUp onSignup={handleSignup} />
-    <img src={signupImage} alt="sharing-code" />
+    <img src={signupImage} alt="sharing-code" className="signUpImg"/>
   </div>
 );
 }
