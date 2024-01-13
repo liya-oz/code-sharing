@@ -1,0 +1,14 @@
+.container{
+    margin: auto;
+}
+p{
+    font-size: 16px;
+}
+
+img{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
