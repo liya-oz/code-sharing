@@ -11,6 +11,7 @@ height: 100%;
 .start-page-header{
 font-size: 40px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+margin-top: -5px;
 }
 
 .start-page-paragraph{

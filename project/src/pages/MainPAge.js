@@ -10,9 +10,9 @@ const MainPage = () => {
   return (
     <div className="container">
       <div className="btn-container">
-        <Link to="/" style={{ textDecoration: "none" }}>
+        {/* <Link to="/" >
           <Button label="Home" className="home-button" />
-        </Link>
+        </Link> */}
         <Button label="Save" />
         <Button label="Share" />
       </div>
