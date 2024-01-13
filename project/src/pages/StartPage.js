@@ -17,7 +17,7 @@ const StartPage = () => {
         <Link to="/main">
           <Button label={"Get Started"} />
         </Link>
-        <img src={startImage} alt="sharing-code" />
+        <img src={startImage} alt="sharing-code" className="start-img"/>
       </div>
     </div>
   );

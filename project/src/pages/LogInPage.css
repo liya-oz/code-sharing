@@ -1,0 +1,12 @@
+.container{
+    margin: auto;
+}
+
+
+.logInImg{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
