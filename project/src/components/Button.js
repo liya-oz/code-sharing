@@ -1,5 +1,5 @@
 import "./Button.css";
-const Button = ({ onClick, label }) => {
-  return <button onClick={onClick}> {label} </button>;
+const Button = ({ onClick, label , className}) => {
+  return <button onClick={onClick} className={className}> {label} </button>;
 };
 export default Button;
