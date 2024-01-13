@@ -1,0 +1,25 @@
+.start-page-container{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+.start-page-header{
+font-size: 40px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.start-page-paragraph{
+font-size: 18px;
+font-weight: 700px;
+}
+
+.start-page-container img{
+    width: 550px;
+    height: 400px;
+    margin-top: 2px;
+}
