@@ -1,0 +1,24 @@
+nav {
+  padding-top: 10px;
+  padding-right: 20px;
+    text-decoration: none;
+
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item  {
+  color:black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navbar-item:hover {
+  color: #4283f0;
+}
