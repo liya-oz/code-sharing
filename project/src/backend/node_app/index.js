@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require("cors");
 const { v4: uuidv4 } = require('uuid');
 const bodyParser = require('body-parser');
 const { Code } = require('./models');
@@ -6,6 +7,7 @@ const { sequelize } = require('./database');
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 // POST /code
 app.post('/code', async (req, res) => {

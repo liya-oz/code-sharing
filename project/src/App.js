@@ -5,6 +5,7 @@ import MainPage from "./pages/MainPage";
 import SignUpPage from "./pages/SignUpPage";
 import Navbar from "./components/Navbar";
 import LogInPage from "./pages/LogInPage";
+import CodeDisplayPage from "./pages/CodeDisplayPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/main" element={<MainPage />} exact />
           <Route path="/signup" element={<SignUpPage />} exact />
           <Route path="/login" element={<LogInPage />} exact />
+          <Route path="/code/:uuid" element={<CodeDisplayPage />} />
         </Routes>
       </Router>
     </div>
