@@ -1,0 +1,17 @@
+.share-code-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.share-code-box{
+    background-color:#c4cfd8 ;
+    width: 900px; 
+    height: 500px;
+    padding: 15px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    border: none;
+}
