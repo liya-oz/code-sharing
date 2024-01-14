@@ -10,9 +10,6 @@ const MainPage = () => {
   return (
     <div className="container">
       <div className="btn-container">
-        <Link to="/" style={{ textDecoration: "none" }}>
-          <Button label="Home" className="home-button" />
-        </Link>
         <Button label="Share" />
       </div>
       <CodeBox code={code} onUpdateCode={setCode} />
