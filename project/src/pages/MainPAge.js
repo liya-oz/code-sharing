@@ -13,7 +13,6 @@ const MainPage = () => {
         <Link to="/" style={{ textDecoration: "none" }}>
           <Button label="Home" className="home-button" />
         </Link>
-        <Button label="Save" />
         <Button label="Share" />
       </div>
       <CodeBox code={code} onUpdateCode={setCode} />
