@@ -20,7 +20,8 @@ return (
         <span> Log In</span>
       </Link>
     </p>
-    <img src={signupImage} alt="sharing-code" className="signUpImg" />
+    <SignUp onSignup={handleSignup} />
+    <img src={signupImage} alt="signup" className="signUpImg"/>
   </div>
 );
 }
