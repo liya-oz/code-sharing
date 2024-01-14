@@ -1,6 +1,7 @@
 import React from "react";
 import SignUp from "../components/SignUp";
 import "./SignUpPage.css"
+import { Link } from "react-router-dom";
 import signupImage from "../images/sign-up.jpeg"
 
 const SignUpPage = () =>{
@@ -11,11 +12,15 @@ const handleSignup = (formData) => {
 return (
   <div className="container">
     <h1>Sign Up For Code Sharing</h1>
-    <p>
-      Create free account now.
-    </p>
+    <p>Create free account now.</p>
     <SignUp onSignup={handleSignup} />
-    <img src={signupImage} alt="sharing-code" className="signUpImg"/>
+    <p>
+      Already have an account?
+      <Link to="/login" style={{ textDecoration: "none" }}>
+        <span> Log In</span>
+      </Link>
+    </p>
+    <img src={signupImage} alt="sharing-code" className="signUpImg" />
   </div>
 );
 }
