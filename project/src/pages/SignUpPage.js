@@ -20,6 +20,7 @@ return (
         <span> Log In</span>
       </Link>
     </p>
+    <img src={signupImage} alt="sharing-code" className="signUpImg" />
   </div>
 );
 }
