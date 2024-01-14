@@ -20,8 +20,6 @@ return (
         <span> Log In</span>
       </Link>
     </p>
-    <SignUp onSignup={handleSignup} />
-    <img src={signupImage} alt="signup" className="signUpImg"/>
   </div>
 );
 }
