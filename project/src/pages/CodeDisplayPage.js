@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
 import "./CodeDisplayPage.css"
+import useStarRating from "../custom-hook/useStarRating";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 const CodeDisplayPage = () => {
-  const [code, setCode] = useState("");
+    const [code, setCode] = useState("");
     const currentUrl = window.location.href;
     const urlParts = currentUrl.split("/");
 
     // Get the UUID from the parts array
     const uuid = urlParts[urlParts.length - 1];
 
-    console.log("UUID:", uuid);
   useEffect(() => {
     const fetchCode = async () => {
       try {
@@ -24,10 +26,28 @@ const CodeDisplayPage = () => {
     fetchCode();
   }, [uuid]);
 
+    const { rating, userRated, handleStarClick } = useStarRating(uuid);
+
+
   return (
     <div className="share-code-container">
       <h1>The Shared Code :</h1>
-      <div className="share-code-box">{code}</div>
+      <pre className="share-code-box">{code}</pre>
+
+      {userRated ? (
+        <p>You have already rated this code.</p>
+      ) : (
+        <div className="star-rating">
+          {[1, 2, 3, 4, 5].map((starValue) => (
+            <FontAwesomeIcon
+              key={starValue}
+              icon={faStar}
+              className={starValue <= rating ? "active" : ""}
+              onClick={() => handleStarClick(starValue)}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
