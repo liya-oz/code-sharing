@@ -39,3 +39,31 @@ font-size: 14px;
 font-weight: 700;
 margin-top: 10px;
 }
+
+@media (max-width: 600px) {
+  .input-container {
+    width: 100%; /* Full width for small screens */
+  }
+
+  label {
+    flex-basis: unset; /* Reset flex-basis for smaller screens */
+  }
+}
+
+.submit-btn {
+  width: 100%;
+  height: 50px;
+  background-color: #33a953;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+  input {
+    font-size: 10px;
+  }
+}

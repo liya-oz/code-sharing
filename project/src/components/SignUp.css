@@ -39,3 +39,9 @@ font-size: 14px;
 font-weight: 700;
 margin-top: 10px;
 }
+@media (max-width: 600px) {
+  label {
+    flex-basis: unset; 
+  }
+}
+

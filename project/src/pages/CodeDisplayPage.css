@@ -32,3 +32,19 @@ margin-top: 20px;
 .star-rating .fa-star.active {
   color: gold; 
 }
+
+@media (max-width: 700px) {
+
+  .star-rating .fa-star {
+    font-size: 20px;
+    margin-right: 3px; 
+  }
+}
+
+@media (max-width: 900px) {
+  .share-code-box {
+    max-width: 90%;
+    font-size: 14px;
+    padding: 10px;
+  }
+}

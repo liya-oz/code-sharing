@@ -9,13 +9,13 @@ width: 100%;
 height: 100%;
 }
 .start-page-header{
-font-size: 3em;
+font-size: 40px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 margin-top: -5px;
 }
 
 .start-page-paragraph{
-font-size: 1.3em;
+font-size: 18px;
 font-weight: 700px;
 }
 
@@ -25,14 +25,14 @@ font-weight: 700px;
     margin-top: 2px;
 }
 
-/* For screens smaller than 600px */
+
 @media (max-width: 600px) {
   .start-page-header {
-    font-size: 2em;
+    font-size: 30px;
   }
 
   .start-page-paragraph {
-    font-size: 0.8em;
+    font-size: 15px;
   }
 
   .start-img {

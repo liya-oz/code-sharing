@@ -1,17 +1,33 @@
 .container{
     margin: auto;
 }
+.container h2{
+    margin-top: -10px;
+}
 p{
     font-size: 16px;
 }
 
 .signUpImg{
-    width: 20%;
-    height: 40%;
-    position: absolute;
-    bottom: 20px;
-    left: 40px;
+    width: 37%;
+    height: 38%;
+  
 }
 span{
     color:#33a953;
+}
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 24px; 
+  }
+
+  p {
+    font-size: 12px; 
+  }
+
+  .signUpImg {
+    width: 100%;
+    height: auto;
+    margin-top: 20px; 
+  }
 }
