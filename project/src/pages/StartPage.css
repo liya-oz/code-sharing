@@ -24,3 +24,19 @@ font-weight: 700px;
     height: 400px;
     margin-top: 2px;
 }
+
+
+@media (max-width: 600px) {
+  .start-page-header {
+    font-size: 30px;
+  }
+
+  .start-page-paragraph {
+    font-size: 15px;
+  }
+
+  .start-img {
+    width: 100%;
+    height: auto;
+  }
+}

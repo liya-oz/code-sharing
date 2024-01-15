@@ -12,7 +12,7 @@ const LoginPage = () => {
 
   return (
     <div className="container">
-      <h2>Login Page</h2>
+      <h1>Login Page</h1>
       <LogIn onLogin={handleLogin} />
       <img src={loginImage} alt="login" className="logInImg" />
       <p>
