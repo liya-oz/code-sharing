@@ -8,3 +8,10 @@ border: none;
 font-size: 14px;
 font-weight: 700;
 }
+
+@media (max-width: 600px) {
+
+ .custom-btn {
+    font-size: 0.8em;
+  }
+}

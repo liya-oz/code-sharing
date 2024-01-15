@@ -27,3 +27,29 @@ nav {
 .navbar-item:hover {
   color: #4283f0;
 }
+
+
+
+@media (max-width: 600px) {
+  nav {
+    text-align: center;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-list :first-child {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-item {
+    padding: 8px; 
+  }
+
+  .logo-link {
+    order: -1; 
+  }
+}
