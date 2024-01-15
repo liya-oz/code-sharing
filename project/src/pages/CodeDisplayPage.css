@@ -2,16 +2,33 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: -20px;;
 }
 
 
 .share-code-box{
     background-color:#c4cfd8 ;
     width: 900px; 
-    height: 500px;
+    height: 450px;
     padding: 15px;
     border-radius: 3px;
     color: black;
     font-size: 20px;
     border: none;
+    overflow-y: auto; 
+}
+
+
+.star-rating {
+margin-top: 20px;
+}
+
+.star-rating .fa-star {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.star-rating .fa-star.active {
+  color: gold; 
 }
