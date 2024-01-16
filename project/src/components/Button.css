@@ -8,6 +8,9 @@ border: none;
 font-size: 14px;
 font-weight: 700;
 }
+.custom-btn:hover {
+  background-color: #2c5d9e; 
+}
 
 @media (max-width: 600px) {
 
