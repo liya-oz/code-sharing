@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./SignUp.css";
+import Button from "./Button";
 
 const SignUp = ({ onSignup }) => {
   const [formData, setFormData] = useState({
@@ -57,7 +58,7 @@ const SignUp = ({ onSignup }) => {
             required
           />
         </div>
-          <button type="submit" className="submit-btn">Sign Up</button>
+          <Button type={"submit"} label ={"Sign Up"} />
       </form>
     </div>
   );

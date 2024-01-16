@@ -28,16 +28,18 @@ label {
 input {
   flex: 1;
 }
-.submit-btn{
+form .custom-btn{
 width: 100%;
 height: 50px;
 background-color: #33a953;
-border-radius: 12px;
 color:white;
 border: none;
 font-size: 14px;
 font-weight: 700;
 margin-top: 10px;
+}
+form .custom-btn:hover {
+  background-color: #2d903e; /* Darker green on hover */
 }
 @media (max-width: 600px) {
   label {

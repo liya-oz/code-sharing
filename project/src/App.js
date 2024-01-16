@@ -5,6 +5,7 @@ import MainPage from "./pages/MainPage";
 import SignUpPage from "./pages/SignUpPage";
 import Navbar from "./components/Navbar";
 import LogInPage from "./pages/LogInPage";
+import PricingPage from "./pages/PricingPage";
 import CodeDisplayPage from "./pages/CodeDisplayPage";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/main" element={<MainPage />} exact />
           <Route path="/signup" element={<SignUpPage />} exact />
           <Route path="/login" element={<LogInPage />} exact />
+          <Route path="pricing" element={<PricingPage />} />
           <Route path="/code/:uuid" element={<CodeDisplayPage />} />
         </Routes>
       </Router>

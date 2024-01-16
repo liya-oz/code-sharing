@@ -28,17 +28,7 @@ label {
 input {
   flex: 1;
 }
-.submit-btn{
-width: 100%;
-height: 50px;
-background-color: #33a953;
-border-radius: 12px;
-color:white;
-border: none;
-font-size: 14px;
-font-weight: 700;
-margin-top: 10px;
-}
+
 
 @media (max-width: 600px) {
   .input-container {
